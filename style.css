@@ -1,0 +1,95 @@
+body {
+  background:#779ce2 ;
+  text-align: center;
+  font-family: arial;
+}
+
+h1 {
+  color: red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 76px;
+}
+
+h2, h3, h4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  color: white;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+h4, ul, ol {
+  text-align: left;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+p, ul, ol {
+  font-size: 20px;
+ color: white;
+}
+
+.intro { 
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+.line-transparent 
+  background: black;
+  width: 100%;
+}
+
+.line-light {
+  height: 30px;
+  width: 20%;
+  background: #EE9CA7;
+}
+
+.line-medium {
+  height: 30px;
+  width: 30%;
+  background: #C86472;
+}
+
+.line-hard {
+  height: 30px;
+  width: 50%;
+  background: #9F3442;
+}
+
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
